@@ -21,4 +21,17 @@ contactClick.addEventListener('click', ()=>{
     contactInfo.classList.toggle('pp');
 });
 
-const btn = document.querySelector('.btn');
+const btn = document.querySelector('.btn'); //button
+
+btn.addEventListener('click',()=>{
+    let pdfUrl = "/pdf file/my pdf.pdf" //pdf url
+    
+    let link = document.createElement('a'); // create new tag 
+    
+    link.href = pdfUrl;
+    link.download = 'mycv.pdf';
+    
+    link.click();
+    
+})
+
