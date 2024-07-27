@@ -111,6 +111,9 @@ li:hover{
     background: var(--primary-back);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     top: 55px;
+    right: 20px;
+    width: 170px;
+    padding-right: 15px;
 }
 .pp{
     display: none;
@@ -118,8 +121,8 @@ li:hover{
 .header-item .contact li{
     font-size: 0.6em;
     color: var(--primary-color);
-    width: 130px;
-    padding: 2px;
+    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
