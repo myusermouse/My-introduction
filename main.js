@@ -1,3 +1,5 @@
+//background light chenge
+
 const darkImg = document.querySelector('.dark-img');
 const lightImg = document.querySelector('.light-img');
 const body = document.querySelector('.body');
@@ -14,13 +16,8 @@ lightImg.addEventListener('click', ()=>{
     lightImg.classList.add('pp');
 });
 
-const contactClick = document.querySelector('.contact-click');
-const contactInfo = document.querySelector('.contact');
 
-contactClick.addEventListener('click', ()=>{
-    contactInfo.classList.toggle('pp');
-});
-
+/// dawnload pdf file cv 
 const btn = document.querySelector('.btn'); //button
 
 btn.addEventListener('click',()=>{
@@ -37,4 +34,16 @@ btn.addEventListener('click',()=>{
 
 ///  lovely // i love coding! 
 
+// contact show 
 
+const contactMe = document.getElementById('contact-me');
+const contactContant = document.getElementById('contact-contant');
+
+const closecontant = document.getElementById('c-b');
+contactMe.addEventListener('click', ()=>{
+    contactContant.classList.toggle('contact-contant-show');
+})
+ function closeContant() {
+     contactContant.classList.remove('contact-contant-show');
+ }
+///// close contact show/// 
