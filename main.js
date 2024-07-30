@@ -47,3 +47,16 @@ contactMe.addEventListener('click', ()=>{
      contactContant.classList.remove('contact-contant-show');
  }
 ///// close contact show/// 
+
+/// intro  texteffect ///
+
+
+// intro texteffect
+
+var typingEffect = new Typed(".typedtext", {
+    strings: ["Designer", "Developer", "Youtuber"],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 2000
+});
