@@ -71,7 +71,7 @@ header .header-item .logo{
     list-style: none;
     float: left;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.7em;
     text-decoration: none;
     color: var(--primary-color);
   /*  margin-left: 15px;*/
@@ -201,7 +201,7 @@ header img{
 }
 .main .intro  h5{
     position: absolute;
-    top: -3px;
+    top: 5px;
     left: 15px;
 }
 .main .intro  .intro-head{
@@ -212,7 +212,11 @@ header img{
     justify-content: left;
     font-size: 2em;
 }
-.main .intro  span{
+.main .intro .first-letter::first-letter{
+    font-size: 1.7em;
+    font-weight: 500;
+}
+.main .intro .typedtext{
     color:var(--text-hover);
     text-shadow: 1px 0 1px rgba(0, 0, 0, 0.7);
     margin-left: 10px;
@@ -231,7 +235,7 @@ header img{
     background: var(--text-hover);
     font-size: 0.9em;
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 20px;
     color: var(--primary-color);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -264,15 +268,18 @@ header img{
     position: absolute;
     background-size: cover;
     width: 350px;
-    border-radius: 5px;
+    border-radius: 55% 45% 55% 45%;
     transition: all 1s;
-    animation: anim 1s linear forwards;
+    animation: anim 7s ease-in-out infinite;
     rotate: 10deg;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    overflow: hidden;
 }
 @keyframes anim{
-    100%{
-       transform:rotate(-10deg);
+    50%{
+        transform: translateY(10px);
+       border-radius: 45% 55% 45% 55%;
     }
 }
 .notice{
