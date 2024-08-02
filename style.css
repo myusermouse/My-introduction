@@ -393,6 +393,174 @@ i{
 }
 
 /************** gellary close ***************/
+/***********my exprince  st ***************/
+.my-exprreinece{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.expreience-skills{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.expreience-skills .exp-header{
+    font-size: 2em!important;
+}
+.experience{
+    width: 300px;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 5px;
+    display: block;
+   
+}
+.experience .exp-head{
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.experience .exp-qua-con{
+    display: inline-block;
+    
+}
+.experience .exp-boxs{
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.experience  .exp-quality{
+  /*****  width: /*125*//*  60%;
+    height: 3px;
+    background: #FFE147;
+    margin: 10px;
+    display: inline-block;
+    margin: 1px;
+    padding: 3px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    *****/
+}
+.experience .exp-boxs .exp-quality-back{
+    width: 80%;
+    height: 8px;
+    background: #919191;
+    border-radius: 20px;
+    padding: ;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.experience .exp-qua-con .exp-boxs .exp-qua-text{
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 600;
+    color: #2897F2;
+    margin-left: 5px;
+    padding: 1px 0 0 0;;
+    
+}
+.experience .exp-qua-con .exp-boxs .exp-inon{
+    width: 30px;
+    padding: 5px;
+}
+#html{
+    width: 60%!important;
+    height: 8px;
+    background: #FF9747;
+    margin: 10px;
+    display: inline-block;
+    margin: 1px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+#css{
+    width: 42%!important;
+    height: 8px;
+    background: #47A8FF;
+    margin: 10px;
+    display: inline-block;
+    margin: 1px;
+    border-radius: 20px;
+    position: absolute;
+    left: 2px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+#js{
+    width: 5%!important;
+    height: 8px;
+    background: #FFE147;
+    margin: 10px;
+    display: inline-block;
+    margin: 1px;
+    border-radius: 20px;
+    position: absolute;
+    left: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.experience .exp-head .js{
+    width: px;
+}
+#react{
+  /*  width: !important;*/
+    height: 3px;
+    background: #8AF5FF;
+    margin: 10px;
+    display: inline-block;
+    margin: 1px;
+    
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+#mysql{
+  /*  width: !important;*/
+    height: 3px;
+    background: #EFEFEF;
+    margin: 10px;
+    display: inline-block;
+    margin: 1px;
+    
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+#python{
+  /*  width: !important;*/
+    height: 3px;
+    background: #257EAB;
+    margin: 10px;
+    display: inline-block;
+    margin: 1px;
+    padding: ;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+.exp-py-head{
+    font-size: 0.7em!important;
+}
+
+/******************* expreanence  close ************/
 
 
 
