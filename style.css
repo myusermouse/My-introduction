@@ -271,7 +271,6 @@ header img{
     border-radius: 55% 45% 55% 45%;
     transition: all 1s;
     animation: anim 7s ease-in-out infinite;
-    rotate: 10deg;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
     object-fit: cover;
     overflow: hidden;
@@ -549,7 +548,6 @@ i{
     margin: 10px;
     display: inline-block;
     margin: 1px;
-    padding: ;
     border-radius: 20px;
     position: absolute;
     left: 0;
